@@ -1,0 +1,67 @@
+\documentclass[aspectratio=169]{beamer}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{xcolor}
+\usepackage{multirow, amssymb, booktabs}
+\usepackage{multicol}
+\usepackage{calligra}
+\usepackage{lmodern}
+
+% \usepackage{enumitem}
+
+
+% 设置全局颜色
+\color{white}
+\setbeamercolor{normal text}{fg=white}
+\setbeamercolor{item}{fg=white}
+\setbeamercolor{section in toc}{fg=white}
+\setbeamercolor{subsection in toc}{fg=white}
+\setbeamercolor{subsubsection in toc}{fg=white}
+\setbeamertemplate{navigation symbols}{}
+
+% 字体大小
+\setbeamerfont{section in toc}{size=\normalsize}
+\setbeamerfont{subsection in toc}{size=\footnotesize }
+\setbeamerfont{subsubsection in toc}{size=\scriptsize}
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+\setbeamertemplate{subsubsection in toc}[subsubsections numbered]
+\setbeamertemplate{itemize item}{\textbullet}
+
+% 页码
+\setbeamertemplate{footline}{%
+  \ifnum\insertframenumber=1\relax\else
+    \ifnum\insertframenumber=\inserttotalframenumber\relax\else
+      \begin{tikzpicture}[remember picture,overlay]
+        \node[anchor=south east, yshift=5pt, xshift=-40pt]
+          at (current page.south east)
+          {\textcolor{white}{\footnotesize\insertframenumber\,/\,\inserttotalframenumber}};
+      \end{tikzpicture}%
+    \fi
+  \fi
+}
+
+
+
+
+
+\title{\texorpdfstring{{\LARGE\color{yellow}Your title}}{Helping Patients Understand Their Images: Sentence-to-Lesion Grounding in Multimodal Brain MRI
+}}
+\author{\texorpdfstring{{Your name}}{Your name}}
+\institute{School of Biomedical Engineering\\ShanghaiTech University\\United Imaging Intelligence Co., Ltd.}
+\date{November 05, 2025}
+
+
+\begin{document}
+\input{01_titlepage.tex}
+\input{02_outline.tex}
+\input{03_background.tex}
+\input{04_relatedwork.tex}
+\input{05_motivation&hypothesis&contribution.tex}
+\input{06_method.tex}
+\input{07_data.tex}
+\input{08_result.tex}
+\input{09_todolist.tex}
+\input{10_thanks.tex}
+\end{document}

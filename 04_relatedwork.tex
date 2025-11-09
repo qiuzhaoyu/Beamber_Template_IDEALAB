@@ -1,0 +1,149 @@
+\section{Related Work}
+
+\begin{frame}{\color{yellow}Related Work}
+% Learning Segmentation from Radiology Reports
+
+\begin{textblock*}{0.9\textwidth}(.3cm,1.3cm)
+\fontsize{11pt}{11.5pt}\selectfont
+Learning Segmentation from Radiology Reports\textsuperscript{[1]} 
+\end{textblock*}
+
+\begin{textblock*}{0.45\textwidth}(1cm,1.8cm)
+\centering
+\includegraphics[width=\linewidth]{figures/rsuper_abstract.png}
+\end{textblock*}
+
+
+
+\begin{textblock*}{0.50\textwidth}(8cm,1.8cm)
+\fontsize{10pt}{10.5pt}\selectfont
+Hypothesis \& Motivation
+\begin{itemize}
+    \item Direct supervision of tumor segmentation from radiology reports
+\end{itemize}
+
+Data
+\begin{itemize}
+    \item 9,262 CT-Mask pairs (public benchmark AbdomenAtlas 2.0)
+    \item 6,718 CT-Report pairs (in-house UCSF Hospital dataset)
+\end{itemize}
+
+Contributions
+\begin{itemize}
+    \item Volume loss – organ-level volume matching
+    \item Ball loss – lesion-level size and count alignment
+\end{itemize}
+
+
+
+
+\end{textblock*}
+
+
+
+
+
+
+
+
+
+
+\begin{textblock*}{.95\textwidth}(0.4cm,8.3cm)
+  \fontsize{6pt}{6pt}\selectfont
+  \textbf{[1]} Bassi, Pedro RAS, et al. "Learning segmentation from radiology reports." \textit{\textbf{MICCAI}}, 2025 (Best paper award runner-up)
+\end{textblock*}
+
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{frame}{\color{yellow}Related Work}
+% [1] Bannur, Shruthi, et al. "Maira-2: Grounded radiology report generation." arXiv preprint arXiv:2406.04449 (2024).
+
+
+\begin{textblock*}{0.6\textwidth}(.3cm,1.3cm)
+\fontsize{11pt}{11.5pt}\selectfont
+Maira-2: Grounded radiology report generation\textsuperscript{[1]}
+\end{textblock*}
+
+\begin{textblock*}{0.55\textwidth}(.5cm,1.8cm)
+\centering
+\includegraphics[width=\linewidth]{figures/Maira_image1.png}
+\end{textblock*}
+
+\begin{textblock*}{0.45\textwidth}(9cm,1.8cm)
+
+\end{textblock*}
+
+
+
+
+
+\begin{textblock*}{0.50\textwidth}(8.5cm,1.8cm)
+\fontsize{10pt}{10.5pt}\selectfont
+Motivation
+\begin{itemize}
+    \item Grounded Radiology Report Generation
+\end{itemize}
+
+Data
+\begin{itemize}
+\item 227,835 radiology reports (MIMIC-CXR-RoCo)
+\item Chest X-ray images with bounding box annotations for visual grounding
+\item Comprehensive clinical metadata including temporal context
+\end{itemize}
+
+
+Contributions
+\begin{itemize}
+    \item Input augmentation (e.g., frontal image, lateral image, indication, technique, comparison, prior report )
+
+\end{itemize}
+
+
+
+\end{textblock*}
+
+
+
+
+
+
+
+
+
+\begin{textblock*}{.95\textwidth}(0.4cm,8.3cm)
+  \fontsize{6pt}{6pt}\selectfont
+  \textbf{[1]} Bannur, Shruthi, et al. "Maira-2: Grounded radiology report generation." \textbf{\textit{arXiv preprint}}: 2406.04449 (2024).
+\end{textblock*}
+
+
+\end{frame}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% \begin{frame}{\color{yellow}Related Work}
+% % Other TMI & MIA 
+% \end{frame}
