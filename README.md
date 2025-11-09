@@ -6,6 +6,7 @@ A clean, production-ready **LaTeX Beamer** template for research presentations. 
 ![alt text](readme_pictures/image.png)
 ![alt text](readme_pictures/image-1.png)
 ![alt text](readme_pictures/image-2.png)
+![alt text](readme_pictures/image-3.png)
 ---
 
 ## Features
