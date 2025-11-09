@@ -1,7 +1,6 @@
 # Beamber_Template_IDEALAB
 
-A clean, production-ready **LaTeX Beamer** template for research presentations.  
-Dark (IDEALAB-style) theme with yellow accents, 16:9 layout, TikZ components, curated slide patterns, and a VS Code/Overleaf-friendly toolchain. **No CJK packages** by default (pdfLaTeX first; XeLaTeX optional).
+A clean, production-ready **LaTeX Beamer** template for research presentations. Dark (IDEALAB-style) theme with yellow accents, 16:9 layout, TikZ components, curated slide patterns, and a VS Code/Overleaf-friendly toolchain. **No CJK packages** by default (pdfLaTeX first; XeLaTeX optional).
 ![alt text](readme_pictures/image.png)
 ![alt text](readme_pictures/image-1.png)
 ![alt text](readme_pictures/image-2.png)
