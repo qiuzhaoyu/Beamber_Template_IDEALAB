@@ -26,7 +26,7 @@ git clone https://github.com/<your-org>/Beamber_Template_IDEALAB.git
 cd Beamber_Template_IDEALAB
 make pdf    # or: latexmk -pdf -synctex=1 -interaction=nonstopmode -outdir=output main.tex
 open output/main.pdf  # macOS; use xdg-open on Linux
-
+```
 
 ### VS Code Configuration
 Place this in .vscode/settings.json:
@@ -60,6 +60,6 @@ Place this in .vscode/settings.json:
   "editor.rulers": [100],
   "editor.formatOnSave": false
 }
-
+```
 
 
